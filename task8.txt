@@ -60,6 +60,7 @@ code:
     console.log(obj.getPG(arr));
 
 output:
+       Casino Royale Eon Productions PG­13
       {title: 'RRR', studio: 'DVV', rating: 'PG'}
       {title: 'Pushpa', studio: 'Mythri Movie Makers', rating: 'PG'}
       
