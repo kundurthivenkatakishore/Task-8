@@ -102,4 +102,25 @@ output:
       Nellore
       123456789
       Amazon
+      
+4)write a class to calculate uber price.
+
+code:
+        class  Uberprice{
+            constructor(distance,cost)
+            {
+                this.distance=distance;
+                this.cost=cost;
+            }
+            getPrice(){
+                let output=`${this.distance}`*`${this.cost}`;
+                return output;
+            }
+        }
+        let obj=new Uberprice("250","12");
+        console.log(obj.getPrice());
+        
+output:
+        3000
+        
 
