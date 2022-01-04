@@ -64,6 +64,45 @@ output:
       {title: 'RRR', studio: 'DVV', rating: 'PG'}
       {title: 'Pushpa', studio: 'Mythri Movie Makers', rating: 'PG'}
       
+2)Convert the UML diagram to Typescript class. - use number for double
+
+code:
+        class Circle{
+        constructor(radius,color){
+            this.radius=radius;
+            this.color=color;
+        }
+        getRadius(){
+            console.log(`${this.radius}`);
+        }
+        getColor(){
+            console.log(`${this.color}`);
+        }
+        getArea(){
+            let pi=3.14;
+            let r=`${this.radius}`**2;
+            let output=pi*r;
+            console.log(output);
+        }
+        getCircumferance(){
+            let pi=3.14;
+            let output1=2*pi*`${this.radius}`;
+            console.log(output1);
+        }
+    }
+    let obj=new Circle("2.3","red");
+    console.log(obj.getRadius())
+    console.log(obj.getColor())
+    console.log(obj.getArea());
+    console.log(obj.getCircumferance());
+    
+output:
+        2.3
+        red
+        16.62
+        14.45
+        
+        
 3)Write a “person” class to hold all the details.
 code:
     class Person{
